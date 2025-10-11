@@ -262,3 +262,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # inherit from the proprietary version
 include vendor/motorola/eqe/BoardConfigVendor.mk
+include vendor/qcom/wfd/BoardConfigVendor.mk
