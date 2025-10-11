@@ -15,6 +15,9 @@ $(call inherit-product, device/motorola/eqe/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+TARGET_HAS_UDFPS := true
+TARGET_INCLUDE_ACCORD := false
+
 PRODUCT_NAME := lineage_eqe
 PRODUCT_DEVICE := eqe
 PRODUCT_MANUFACTURER := motorola
