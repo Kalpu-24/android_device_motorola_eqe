@@ -17,6 +17,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 TARGET_HAS_UDFPS := true
 TARGET_INCLUDE_ACCORD := false
+TARGET_SUPPORTS_QUICK_TAP := false
 
 PRODUCT_NAME := lineage_eqe
 PRODUCT_DEVICE := eqe
