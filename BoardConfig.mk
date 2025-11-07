@@ -4,7 +4,6 @@
 #
 
 DEVICE_PATH := device/motorola/eqe
-DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 
 # Architecture
 TARGET_ARCH := arm64
