@@ -289,7 +289,7 @@ vendor/lib64/libcamxtintlessalgo.so
 # Camera - imgtuner
 system/lib64/motorola.hardware.camera.imgtuner.aidl-V1-ndk.so
 system_ext/etc/enable-disable-packages/enable-disable-com.motorola.imagertuning_u.xml
-system_ext/etc/permissions/com.motorola.imagertuning.v.rtwo.xml
+system_ext/etc/permissions/com.motorola.imagertuning.v.eqe.xml
 system_ext/etc/permissions/com.motorola.imagertuning.v.xml
 system_ext/etc/permissions/com.motorola.libimgTuner.xml
 system_ext/etc/permissions/privapp-permissions-com.motorola.imagertuning.v.xml
