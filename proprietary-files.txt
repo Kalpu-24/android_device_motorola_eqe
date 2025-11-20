@@ -286,6 +286,22 @@ vendor/lib64/libcamxswispiqmodule.so
 vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
 
+# Camera - imgtuner
+system/lib64/motorola.hardware.camera.imgtuner.aidl-V1-ndk.so
+system_ext/etc/enable-disable-packages/enable-disable-com.motorola.imagertuning_u.xml
+system_ext/etc/permissions/com.motorola.imagertuning.v.rtwo.xml
+system_ext/etc/permissions/com.motorola.imagertuning.v.xml
+system_ext/etc/permissions/com.motorola.libimgTuner.xml
+system_ext/etc/permissions/privapp-permissions-com.motorola.imagertuning.v.xml
+system_ext/etc/public.libraries-motoimagetuner.txt
+system_ext/framework/com.motorola.libimgTuner.jar
+system_ext/lib64/libimgTuner_jni.motoimagetuner.so
+system_ext/priv-app/ImagerTuning-V/ImagerTuning-V.apk;PRESIGNED
+vendor/bin/hw/motorola.hardware.camera.imgtuner.aidl-service
+vendor/etc/init/motorola.hardware.camera.imgtuner.aidl-service.rc
+vendor/etc/vintf/manifest/motorola.hardware.camera.imgtuner.aidl.xml
+vendor/lib64/motorola.hardware.camera.imgtuner.aidl-V1-ndk_platform.so
+
 # Camera - Components
 vendor/lib64/camera/components/com.arcsoft.node.dc_capture.so
 vendor/lib64/camera/components/com.arcsoft.node.dc_preview.so
